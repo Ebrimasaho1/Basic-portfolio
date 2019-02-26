@@ -1,0 +1,120 @@
+body {
+    background-color: lightgray;
+    
+}
+  
+
+
+   h1 {
+       padding:10px;
+       background-color: teal;    
+       font: Georgia;
+       width: 12%;
+       text-emphasis: center;
+       float: left;
+       display: inline;
+       margin: 0;
+       margin-left: 40px;
+       color: white;
+       
+   } 
+
+   .sidemenu {
+       float: right;
+       display:inline;
+       font-size: 15px;
+       word-spacing:2px;
+       margin-right: 300px;
+       margin-top: 40px;
+       
+   }
+   .clearfix {
+       overflow: auto;
+       width: 960px; 
+       border-bottom: inset;
+       background-color: white;
+   }
+   .navbar {
+       position: absolute;
+       width: 100%;
+       left: 0;
+       right:0;
+       top:0;
+       background-color:white;
+   }
+
+   .about {
+       border-bottom: outset;
+       padding:10px;
+       width: 100%;
+       background-color: white;
+       margin-top: 100px;
+       margin-left: 50px;
+   }
+
+       
+   #about_image {
+       width: 90px;
+       height: 100px;
+       float: left;
+       padding: 10px;
+       background-color:white;
+       margin-top:-10px;
+     
+   }
+
+     section {
+       padding: 10px;
+        font: Arial;
+        background-color: White;
+        
+    }
+    
+    footer {
+    background-color: white;
+    width: 100%;
+    padding:10px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    }
+
+    .backcolour {
+        width:960px;
+        margin-bottom: 50px;
+    }
+
+    nav {
+        color: teal;
+    }
+
+    .input_class{
+        display: block;
+        width:95%;
+        padding:10px;
+    }
+    .contact_form {
+        width: 960px;
+    }
+    .imgclass{
+        width: 140px;
+        height: 140px;
+    }
+    /*#gallary{
+        background-color: white;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;   
+    }*/
+
+    .sub_button{
+        background-color: teal;
+        color: white;
+        height:30px;
+    }
+   
+    #doubleimage {
+        display: block;
+        margin-left: 300px;
+        
+    }
