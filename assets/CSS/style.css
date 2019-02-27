@@ -1,15 +1,13 @@
-body {
+    body {
     background-color: lightgray;
     
-}
+    }
   
-
-
    h1 {
        padding:10px;
        background-color: teal;    
        font: Georgia;
-       width: 12%;
+       width: 12%; /*adjusting height can help tweak page layout by commenting out position on navbar and adjusting height on navbar*/
        text-emphasis: center;
        float: left;
        display: inline;
@@ -25,7 +23,7 @@ body {
        font-size: 15px;
        word-spacing:2px;
        margin-right: 300px;
-       margin-top: 40px;
+       margin-top: 30px;
        
    }
    .clearfix {
@@ -35,12 +33,14 @@ body {
        background-color: white;
    }
    .navbar {
-       position: absolute;
-       width: 100%;
-       left: 0;
-       right:0;
-       top:0;
-       background-color:white;
+      position: absolute;
+      width: 100%;
+      /* height:60px;*/ /*layout of page can be fixed by using this and commenting position*/
+      left: 0;
+      right:0;
+      top:0;
+      background-color:white;
+      
    }
 
    .about {
@@ -49,7 +49,10 @@ body {
        width: 100%;
        background-color: white;
        margin-top: 100px;
-       margin-left: 50px;
+       margin-left: 250px;
+       font-size: 16px;
+       line-height: 24px;
+       font-weight: 20px;
    }
 
        
@@ -59,24 +62,26 @@ body {
        float: left;
        padding: 10px;
        background-color:white;
-       margin-top:-10px;
-     
-   }
+       margin-top:-10px; 
 
+   }
      section {
        padding: 10px;
         font: Arial;
         background-color: White;
-        
+        font-family: "Times New Roman", Times, serif;
     }
     
     footer {
-    background-color: white;
-    width: 100%;
-    padding:10px;
-    position:absolute;
-    bottom: 0;
-    left: 0;
+        position:fixed;
+        background-color: white;
+        width: 100%;
+        padding:10px;
+        position:absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        font-size: 10px;
     }
 
     .backcolour {
@@ -116,5 +121,15 @@ body {
     #doubleimage {
         display: block;
         margin-left: 300px;
+        
+        
+    }
+    a{ 
+        text-decoration: none;
+        color:black;
+    }
+
+    a:hover{
+        background-color: teal;
         
     }
