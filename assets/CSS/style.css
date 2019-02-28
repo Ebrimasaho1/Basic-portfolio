@@ -12,7 +12,7 @@
        float: left;
        display: inline;
        margin: 0;
-       margin-left: 40px;
+       margin-left: 344px;
        color: white;
        
    } 
@@ -22,7 +22,7 @@
        display:inline;
        font-size: 15px;
        word-spacing:2px;
-       margin-right: 300px;
+       margin-right: 405px;
        margin-top: 30px;
        
    }
@@ -46,13 +46,13 @@
    .about {
        border-bottom: outset;
        padding:10px;
-       width: 100%;
+       width: 80%;
        background-color: white;
        margin-top: 100px;
-       margin-left: 250px;
+       margin-left: 335px;
        font-size: 16px;
-       line-height: 24px;
-       font-weight: 20px;
+       line-height: 22px;
+       
    }
 
        
@@ -99,7 +99,7 @@
 
     .input_class{
         display: block;
-        width:95%;
+        width:76%;
         padding:10px;
     }
     .contact_form {
@@ -109,6 +109,8 @@
     .imgclass{
         width: 140px;
         height: 140px;
+        margin-top: 0;
+        
     }
     /*#gallary{
         background-color: white;
@@ -123,13 +125,7 @@
         height:30px;
     }
    
-    #doubleimage {
-        display: block;
-        margin-left: 300px;
-        
-        
-    }
-    a{ 
+     a{ 
         text-decoration: none;
         color:black;
     }
@@ -138,3 +134,84 @@
         background-color: teal;
         
     }
+    .picturetag {
+        position: relative;
+        width: 140px
+        
+        
+    }
+    .picwriting{
+        position: absolute;
+        text-align: center;
+        bottom:0;
+        left:0;
+        color:white;
+        background-color: teal;
+        width:100%;
+        height:40px;
+
+    }
+
+    .secwriting{
+        position: absolute;
+        text-align: center;
+        bottom:0;
+        left:0;
+        color:white;
+        background-color: teal;
+        width:100%;
+        height:40px;
+    }
+
+    .thirdwriting{
+        position: absolute;
+        text-align: center;
+        bottom:0;
+        left:0;
+        color:white;
+        background-color: teal;
+        width:100%;
+        height:40px;
+       
+
+    }
+    .forthwriting{
+        position: absolute;
+        text-align: center;
+        bottom:0;
+        left:0;
+        color:white;
+        background-color: teal;
+        width:100%;
+        height:40px;
+       
+
+    }
+    .fifthwriting{
+        position: absolute;
+        text-align: center;
+        bottom:0;
+        left:0;
+        color:white;
+        background-color: teal;
+        width:100%;
+        height:40px;
+        
+    }
+
+    .doubleimage {
+        display: block;
+        top:0;
+        margin-top: -0%;
+        margin-left: 0%;
+     }
+
+    .doubleimagetwo{
+        float:right;
+        display: block;
+        top:0;
+        margin-top: -57%;
+        margin-right:60%
+        
+     }
+    
